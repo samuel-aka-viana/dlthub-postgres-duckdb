@@ -14,6 +14,8 @@ def main():
         dataset_name="postgres_data",
         dev_mode=False,
     )
+    dlt.config["normalize.data_writer.disable_compression"] = True
+
 
     load_info = pipeline.run(source)
     print(f"pipeline finalizado {load_info}")
