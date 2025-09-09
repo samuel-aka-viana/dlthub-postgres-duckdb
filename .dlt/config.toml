@@ -1,0 +1,4 @@
+[runtime]
+log_level="WARNING"
+dlthub_telemetry = true
+
