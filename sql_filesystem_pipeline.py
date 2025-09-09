@@ -16,7 +16,7 @@ def main():
     )
 
     load_info = pipeline.run(source)
-    print(f"✅ Pipeline sql_filesystem_pipeline.py executado: {load_info}")
+    print(f"pipeline finalizado {load_info}")
 
     return pipeline
 

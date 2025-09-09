@@ -57,7 +57,7 @@ def main():
     dlt.config["normalize.data_writer.disable_compression"] = True
 
     load_info = pipeline.run(postgres_json_source())
-    print(f"✅ Pipeline executado: {load_info}")
+    print(f" Pipeline finalizado: {load_info}")
 
     return pipeline
 
